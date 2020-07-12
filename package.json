@@ -3,10 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "server": "nodemon server.js",
-    "dev": "next dev",
+    "dev": "nodemon -r esm server.js",
     "build": "next build",
-    "start": "next start"
+    "start": "node -r esm server.js"
   },
   "dependencies": {
     "express": "^4.17.1",
