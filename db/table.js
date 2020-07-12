@@ -1,6 +1,6 @@
 /*
 Table template schema to represent DB
-Use case purpose for in-memory storage 
+Used for in-memory storage 
 */
 export default class Table {
     constructor(name) {
