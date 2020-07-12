@@ -21,7 +21,7 @@ nextApp.prepare()
     console.log('> Ready on http://localhost:3000')
   })
 })
-.catch((ex) => {
-  console.error(ex.stack)
+.catch((err) => {
+  console.error(err)
   process.exit(1)
 })
